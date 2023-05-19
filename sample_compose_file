@@ -2,7 +2,7 @@
 version: "2.1"
 services: 
   wikijs:
-    image: linuxserver/wikijs
+    image: liquidinvestigations/wiki.js
     container_name: wikijs
     environment:
       - PUID=998
